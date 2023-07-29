@@ -13,3 +13,4 @@ while bounce < total_bounce:
     print(bounce, (round(total, 4)))
     bounce = bounce + 1
     total = total * ground_bounce
+
