@@ -1,4 +1,10 @@
-with open('Data/portfolio.csv', 'rt') as f:
-    for line in f:
-        print(line, end='')
-    
+try:
+    numerator = 10
+    denominator = 0
+
+    result = numerator/denominator
+
+    print(result)
+
+except:
+    print("Error: Denominator cannot be 0.")
